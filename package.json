@@ -2,7 +2,10 @@
   "name": "light-blue-react-template",
   "version": "1.2.10",
   "private": true,
+  "homepage": "https://github.com/YujiLabs/yunifydemo",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "cross-env PUBLIC_URL='./' NODE_OPTIONS=--openssl-legacy-provider node scripts/build.js",
     "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider node scripts/start.js",
     "test": "node scripts/test.js"
