@@ -1,0 +1,285 @@
+@import '../../../../styles/app';
+
+.map {
+  position: relative;
+  height: 500px;
+
+  svg {
+    height: 500px;
+  }
+}
+
+.stats {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  margin: 5% 10%;
+}
+
+.mapChart {
+  position: relative;
+  margin: (-$widget-padding-vertical) (-$widget-padding-horizontal) 0;
+}
+
+.legend {
+  position: absolute;
+  bottom: 87px;
+  right: 397px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px 15px;
+  border-radius: 8px;
+  color: #fff;
+
+  h6 {
+    margin: 0 0 10px 0;
+    font-size: 14px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      display: flex;
+      align-items: center;
+      font-size: 12px;
+      margin-bottom: 5px;
+
+      span {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        margin-right: 5px;
+      }
+    }
+  }
+
+  .green {
+    background: #28a745;
+  }
+
+  .orange {
+    background: #ffc107;
+  }
+
+  .red {
+    background: #dc3545;
+  }
+
+  .blue {
+    background: #007bff;
+  }
+
+  .yellow {
+    background: #ffc107;
+  }
+}
+
+
+// @import '../../../../styles/app';
+
+// .map {
+//   position: relative;
+//   height: 500px;
+
+//   svg {
+//     height: 500px;
+//   }
+// }
+
+// .stats {
+//   position: absolute;
+//   z-index: 1;
+//   top: 0;
+//   left: 0;
+//   margin: 5% 10%;
+// }
+
+// .mapChart {
+//   position: relative;
+//   margin: (-$widget-padding-vertical) (-$widget-padding-horizontal) 0;
+// }
+
+// .legend {
+//   position: absolute;
+//   bottom: 10px;
+//   right: 10px;
+//   background: rgba(0, 0, 0, 0.6);
+//   padding: 10px 15px;
+//   border-radius: 8px;
+//   color: #fff;
+
+//   h6 {
+//     margin: 0 0 10px 0;
+//     font-size: 14px;
+//   }
+
+//   ul {
+//     list-style: none;
+//     padding: 0;
+//     margin: 0;
+
+//     li {
+//       display: flex;
+//       align-items: center;
+//       font-size: 12px;
+//       margin-bottom: 5px;
+
+//       span {
+//         display: inline-block;
+//         width: 10px;
+//         height: 10px;
+//         border-radius: 50%;
+//         margin-right: 5px;
+//       }
+//     }
+//   }
+
+//   .green {
+//     background: #28a745;
+//   }
+
+//   .orange {
+//     background: #ffc107;
+//   }
+
+//   .red {
+//     background: #dc3545;
+//   }
+
+//   .blue {
+//     background: #007bff;
+//   }
+
+//   .yellow {
+//     background: #ffc107;
+//   }
+// }
+
+
+// // am4chartMap.module.scss
+// @import '../../../../styles/app';
+
+// .map {
+//   position: relative;
+//   height: 500px;
+//   svg {
+//     height: 500px;
+//   }
+// }
+
+// .stats {
+//   position: absolute;
+//   z-index: 1;
+//   top: 0;
+//   left: 0;
+//   margin: 5% 10%;
+// }
+
+// .mapChart {
+//   position: relative;
+//   margin: (-$widget-padding-vertical) (-$widget-padding-horizontal) 0;
+// }
+
+// .legend {
+//   margin-top: 20px;
+//   p {
+//     margin: 0 0 5px;
+//     font-size: 14px;
+//   }
+// }
+
+
+
+// // am4chartMap.module.scss
+// @import '../../../../styles/app';
+
+// .map {
+//   position: relative;
+//   height: 500px;
+//   svg {
+//     height: 500px;
+//   }
+// }
+
+// .stats {
+//   position: absolute;
+//   z-index: 1;
+//   top: 0;
+//   left: 0;
+//   margin: 5% 10%;
+// }
+
+// .mapChart {
+//   position: relative;
+//   margin: (-$widget-padding-vertical) (-$widget-padding-horizontal) 0;
+// }
+
+// .legend {
+//   margin-top: 20px;
+//   p {
+//     margin: 0 0 5px;
+//     font-size: 14px;
+//   }
+// }
+
+
+
+
+// // am4chartMap.module.scss
+// @import '../../../../styles/app';
+
+// .map {
+//   position: relative;
+//   height: 500px;
+//   svg {
+//     height: 500px;
+//   }
+// }
+
+// .stats {
+//   position: absolute;
+//   z-index: 1;
+//   top: 0;
+//   left: 0;
+//   margin: 5% 10%;
+// }
+
+// .mapChart {
+//   position: relative;
+//   margin: (-$widget-padding-vertical) (-$widget-padding-horizontal) 0;
+// }
+
+// .legend {
+//   margin-top: 20px;
+//   p {
+//     margin: 0 0 5px;
+//     font-size: 14px;
+//   }
+// }
+
+
+// @import '../../../../styles/app';
+
+// .map {
+//   position: relative;
+//   height: 500px;
+//   svg {
+//     height: 500px;
+//   }
+// }
+// .stats {
+//   position: absolute;
+//   z-index: 1;
+//   top: 0;
+//   left: 0;
+//   margin: 5% 10%;
+// }
+
+// .mapChart {
+//   position: relative;
+//   margin: (-$widget-padding-vertical) (-$widget-padding-horizontal) 0;
+// }

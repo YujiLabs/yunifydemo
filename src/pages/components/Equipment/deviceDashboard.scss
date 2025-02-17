@@ -1,0 +1,88 @@
+// src/pages/DeviceDashboards/deviceDashboard.scss
+
+.device-dashboard-container {
+    // if you want to tweak the background or spacing
+  }
+  
+  .kpi-card {
+    border-left: 4px solid var(--info-color);
+  }
+  
+  .oee-gauge {
+    margin-bottom: 1rem;
+  }
+  
+// Some local overrides / classes
+
+.kpi-card {
+    border-left: 3px solid var(--info-color);
+    margin-right: 1rem;
+  }
+  
+  .kpi-title {
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: var(--info-color);
+  }
+  
+  .kpi-value {
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+  
+  .oee-gauge {
+    margin-bottom: 20px;
+  }
+  
+  .device-dashboard-container {
+    // Possibly some spacing or background if you like
+  }
+  
+  .me-1 {
+    margin-right: 0.5rem !important; // for older versions of BS if needed
+  }
+  
+  
+/* .blurred-card => blurred + dim for non-hovered cards */
+.blurred-card {
+  filter: blur(2px);
+  opacity: 0.4;
+  transition: all 0.3s ease;
+}
+
+/* .glow-card => highlight for hovered card */
+.glow-card {
+  transition: all 0.3s ease;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0 0 10px 3px rgba(0, 200, 255, 0.5);
+}
+
+/* Icon expansions */
+.icon-normal {
+  width: 60px;
+  transition: transform 0.3s ease;
+}
+.icon-expanded {
+  width: 60px;
+  transform: scale(1.5);
+  transition: transform 0.3s ease;
+}
+
+/* Name expansions (optional) */
+.name-normal {
+  transition: transform 0.3s ease;
+}
+
+.name-expanded {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+  display: inline-block;
+  transform-origin: center left;
+  
+}
+
+.card {
+ /* ensure white background */
+  border-radius: 10px;
+}
